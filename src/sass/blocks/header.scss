@@ -1,0 +1,77 @@
+//HEADER
+.index-header {
+  background-color: black;
+  background-image: url("../img/index/main-banner.jpg");
+  background-size: cover;
+  color: white;
+}
+.navbar-nav {
+  width: 100%;
+}
+.top-line-info {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.top-line-info i {
+  color: $red1;
+}
+.top-menu_navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+.top-menu_navigation li {
+  flex: 0 1 auto;
+  padding: 10px;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item a {
+  font-weight: 700;
+  color: white;
+}
+.navbar-toggler {
+  color: transparent;
+  border: none;
+}
+.fa-bars {
+  color: $red1;
+}
+.page-title {
+  margin-top: 300px;
+  margin-bottom: 300px;
+  text-align: center;
+}
+.page-title h1 {
+  font-weight: 800;
+  font-size: 47px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+span.upp {
+  text-transform: uppercase;
+}
+span.accent {
+  text-transform: uppercase;
+  color: $red1;
+}
+.page-title_introtext {
+  font-weight: 300;
+  font-size: 23px;
+  margin: 0 auto;
+  width: 75%;
+}
+.bottom-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 ;
+}

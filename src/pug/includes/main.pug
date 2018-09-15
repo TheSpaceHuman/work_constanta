@@ -1,0 +1,63 @@
+main.index-main
+   .container
+       section.advantages
+           .advantages_items
+               .advantages_item
+                   img(src="img/index/icons/icon-1.png")
+                   p.advantages_text 20 лет на рынке
+               .advantages_item
+                   img(src="img/index/icons/icon-2.png")
+                   p.advantages_text Высококачественная <br>продукция
+               .advantages_item
+                   img(src="img/index/icons/icon-3.png")
+                   p.advantages_text Конструкторский <br>отдел
+               .advantages_item
+                   img(src="img/index/icons/icon-4.png")
+                   p.advantages_text Продукция на <br>складе
+               .advantages_item
+                   img(src="img/index/icons/icon-5.png")
+                   p.advantages_text Лучшая цена <br>на рынке
+
+
+       section.catalog
+           h2.title.text-center Каталог продукции
+           p.catalog_intotext Доставка продукции в любой регион России грузов любого веса и объема. Работаем с ведущими транспортными компаниями
+
+           .catalog_items
+               .catalog_item
+                   img(src="img/index/catalog-1.jpg")
+                   .catalog_item_text Расходные материалы
+               .catalog_item
+                   img(src="img/index/catalog-2.jpg")
+                   .catalog_item_text Куттерные ножи
+               .catalog_item
+                   img(src="img/index/catalog-3.jpg")
+                   .catalog_item_text Запасные части
+   section.container-fluid.about
+       .container
+           .row
+               .left-line.offset-2
+               .about_text-block.col-10
+                   h2.title О нас
+                   p.text На протяжении 20 лет мы производим и успешно реализуем колбасные скрепки, клипсы, петли для автоматических клипсаторов «Поли-клип», «Альпина», ножи для куттеров «Ласка», «Кремер-Гребе», «Килия», «Альпина», «Л23 ФКВ» и «Нагема», запасные части для клипсаторов FCA-3430, FCA-3441, FCA-3451, FCA-3461, FCA-3462, FCA-3463, которые по своим технологическим показателям не уступают оригинальным изделиям, а цена существенно ниже.
+                   p.text Ежегодно наше предприятие принимает участие в международной выставке «АгроПродМаш», которая является одним из крупнейших проектов «Экспоцентра» в Москве. У нас на стенде Вас ожидают консультации специалистов, дружеский прием и уютная атмосфера.
+                   a.link(href="#") подробно
+
+   .container.form
+       form.row
+           .question-manager.col-6
+               h2.title.mb-4 Вопрос менеджеру
+               p.text Постарайтесь описать ваш вопрос как можно подробнее, чтобы он был понятен службе поддержки, мы постараемся максимально проконсультировать вас по интересующим вопросам.
+               input.checkbox(type="checkbox" name="date-processing" value="true")
+               label.px-2(for="checkbox") Я согласен с условиями <a class="link" href="#">обработки персональных данных</a>
+           .form-input.col-6
+               input(type="text" name="name" placeholder="Ваше имя" value="" required)
+               input(type="email" name="email" placeholder="Ваш email" value="" required)
+               input(type="tel" name="phone" placeholder="Телефон для связи" value="" required)
+               textarea(name="question" rows="5") Ваш вопрос
+               button.btn.btn-danger.btn-fix(type="submit") отправить
+
+
+
+
+
