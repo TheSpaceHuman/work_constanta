@@ -1,0 +1,42 @@
+main.contact-main.my-5
+   .container
+      h1.title-page Контакты
+      .row
+          section.col-lg-4.col-sm-12.left-text
+              .address
+                  p.footer-title Адрес:
+                  p.footer-text 141074 Московская область, г. Королев ул. Пионерская, д.1Б
+              .phone
+                  p.footer-text +7 (495) 513-42-9 <br>+7 (495) 513-56-42 <br>+7 (495) 513-47-90
+              .email
+                  p <span>e-mail:</span> <a class="email-link" href="mailto:mail@zaoconstanta.ru">mail@zaoconstanta.ru</a>
+              .time
+                  p.footer-title Время работы офиса:
+                  p.footer-text пн—пт: с 9:00 до 18:00 <br>сб—вс: выходные
+              .social
+                  a(href="vk") <i class="fab fa-vk px-2"></i>
+                  a(href="fb") <i class="fab fa-facebook-f px-2"></i>
+                  a(href="ig") <i class="fab fa-instagram px-2"></i>
+          section.col-lg-8.col-sm-12.contact-map
+              #map(style="width:100%; height:390px")
+
+      form.row
+          .question-manager.col-lg-6.col-sm-12
+              h2.title.mb-4 Задайте вопрос
+              p.text Задайте в форме справа интересующие Вас вопросы и мы с удовольствием проконсультируем Вас
+              label
+                  input.checkbox(type="checkbox" name="date-processing" value="true")
+                  span.checkbox-custom
+                  span.px-2.label(for="checkbox") Я согласен с условиями <a class="link" href="#">обработки персональных данных</a>
+
+          .form-input.col-lg-6.col-sm-12
+              input(type="text" name="name" placeholder="Ваше имя" value="" required)
+              input(type="email" name="email" placeholder="Ваш email" value="" required)
+              input(type="tel" name="phone" placeholder="Телефон для связи" value="" required)
+              textarea(name="question" rows="5") Ваш вопрос
+              button.btn.btn-danger.btn-fix(type="submit") отправить
+
+
+
+
+

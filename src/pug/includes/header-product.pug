@@ -1,36 +1,32 @@
-header.index-header
+header.production-header
     .container-fluid
         .container
             .top-line-info
-                .top-line-info_address <i class="fas fa-map-marker-alt px-2"></i>МО, г. Королев, ул. Пионерская, 1Б
-                .top-line-info_phone <i class="fas fa-phone-square px-2"></i>+7 (495) 513-42-96,   +7 (495) 513-47-90
+                .top-line-info_address.pr-5 МО, г. Королев, ул. Пионерская, 1Б
+                .top-line-info_phone +7 (495) 513-42-96,   +7 (495) 513-47-90
             nav.top-menu.navbar.navbar-expand-lg.navbar-light
                 a(href="index.html").navbar-brand
-                    img(src="img/index/logo.png" alt="logo")
+                    img(src="img/production/logo.png" alt="logo")
                 button.navbar-toggler(type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation") <i class="fas fa-bars"></i>
 
                 .collapse.navbar-collapse#navbarSupportedContent
                     ul.top-menu_navigation.navbar-nav
                         li.nav-item
                             a(href="index.html") Главная
-                            .desh.active
+                            .desh
                         li.nav-item
                             a(href="about.html") О нас
                             .desh
                         li.nav-item
                             a(href="production.html") Продукция
+                            .desh.active
+                        li.nav-item
+                            a(href="index.html") Документация
                             .desh
                         li.nav-item
-                            a(href="#") Документация
-                            .desh
-                        li.nav-item
-                            a(href="#") Заказы
+                            a(href="catalog.html") Заказы
                             .desh
                         li.nav-item
                             a(href="сontact.html") Контакты
                             .desh
-            .page-title
-                h1 <span class="upp">Компания <span class="accent">«Константа»</span> —</span> <br>одно из ведущих предприятий России
-                p.page-title_introtext Мы производим расходные материалы, режущий инструмент и запасные части для мясоперерабатывающего оборудования.
-            .bottom-icon
-                img(src="img/index/banner-bottom-icon.png")
+            

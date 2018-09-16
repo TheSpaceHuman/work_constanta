@@ -9,7 +9,7 @@
   font-size: 14px;
 }
 .footer-text-block {
-  margin-top: 95px;
+  margin-top: 70px;
 
 }
 p.footer-title {
@@ -32,19 +32,31 @@ a.email-link {
 .social i:hover {
   color: $red1;
 }
-.address, .phone, .email {
+.address, .email {
   padding: 20px 0;
 }
-.time {
-  padding: 0 0 20px;
+.time, .phone {
+  padding: 0;
 }
 .social {
   padding: 40px 0;
 }
 .copyright {
-  padding: 25px 0 40px;
+  padding: 0 0 20px;
   color: $gray2;
 }
 .email span {
   color: $red1;
+}
+//Product
+ .map {
+  background-image: url("../img/production/map.png");
+  background-size: cover;
+}
+.production-footer  p.footer-text,
+.production-footer  a {
+  color: $dark3;
+}
+.production-footer.container-fluid {
+  background-color: #f2f2f2;
 }

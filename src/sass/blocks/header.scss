@@ -9,12 +9,13 @@
   width: 100%;
 }
 .top-line-info {
-  display: flex;
-  justify-content: flex-end;
-  padding: 20px;
+  display: none;
 }
 .top-line-info i {
   color: $red1;
+}
+top-line-info_phone {
+  font-weight: 400;
 }
 .top-menu_navigation {
   display: flex;
@@ -22,12 +23,15 @@
 }
 .top-menu_navigation li {
   flex: 0 1 auto;
-  padding: 10px;
+  padding: 10px 10px 0;
   text-align: center;
 }
 .nav {
   display: flex;
   justify-content: flex-end;
+}
+.navbar {
+  padding: 0.5rem 1rem 0;
 }
 .logo {
   display: flex;
@@ -37,6 +41,12 @@
 .nav-item a {
   font-weight: 700;
   color: white;
+  text-transform: uppercase;
+  line-height: 40px;
+  transition: color 0.7s;
+}
+.nav-item a:hover {
+  color: $red1;
 }
 .navbar-toggler {
   color: transparent;
@@ -74,4 +84,62 @@ span.accent {
   justify-content: center;
   align-items: center;
   padding: 40px 0 ;
+}
+// Production
+.production-header {
+  background-color: #f9f9f9;
+  color: black;
+  
+}
+.production-header .nav-item a {
+  color: $dark2;
+  transition: color 0.7s;
+}
+.production-header .nav-item a:hover {
+  color: $red1;
+}
+//Menu
+//.nav-item.active::after {
+//  content: "";
+//  width: 88px;
+//  height: 3px;
+//  color: white;
+//}
+.desh {
+  height: 3px;
+  background: transparent;
+  flex: 1 1 auto;
+}
+.desh.active {
+  background-color: white;
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.production-header .desh.active {
+  background-color: $red1;
+}
+//Media
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .top-line-info {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    opacity: 0.8;
+  }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
 }
